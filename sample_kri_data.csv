@@ -1,0 +1,11 @@
+Metric Name,Description,Threshold,Current Value,Risk Level,Trend,Owner
+DNS Traffic to Foreign IPs,Outbound DNS requests detected to IPs outside approved geo regions,>0,3,High,↑,Network Sec
+NTP Anomalies,Unexpected frequency or source of NTP requests indicating possible compromise,>5/day,2,Medium,→,Infra Sec
+Firewall Exception Aging,Firewall rules exceeding 180-day exception threshold,>10,8,Medium,↓,GRC
+Decryption Bypass Requests,Requests to bypass SSL decryption for specific destinations,>5,4,Medium,↑,SecOps
+Phishing Simulation Fail Rate,Percentage of users who failed phishing simulation tests,>15%,12,Low,↓,Awareness
+Endpoint AV Alerts,Count of antivirus alerts triggered across all endpoints,>50/day,38,Medium,↓,Endpoint Sec
+Privileged Account Activity,Logins or changes made using privileged accounts outside business hours,>0,1,Medium,→,IAM
+Patch Compliance Rate,Percentage of assets compliant with latest patch cycle,<95%,91,Medium,↑,IT Ops
+Failed VPN Logins,Failed VPN login attempts indicating brute-force or access misuse,>20/day,15,Medium,→,Infra Sec
+Unreviewed Access Rights,User accounts not reviewed in last 90 days,>0,7,Medium,↓,IAM
