@@ -9,6 +9,8 @@ This project demonstrates how Key Risk Indicators (KRIs) can be used to visualiz
 
 ---
 
+![KRI Dashboard Example](visuals/kri_dashboard_mockup.png)
+
 ### Example KRIs
 | Category | Metric | Description | Frequency |
 |-----------|---------|-------------|------------|
